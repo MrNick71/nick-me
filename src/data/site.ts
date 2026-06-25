@@ -87,10 +87,10 @@ export const strengths = [
 ];
 
 export const aboutHeadline =
-  "An intentional builder of systems, ventures, and lasting impact";
+  "A versatile entrepreneur delivering design, security, and technology\u00A0solutions";
 
 export const aboutParagraphs = [
-  "Shaped by humble beginnings and disciplined growth, Nicholas Kwaku Akakpo is an intentional builder — of systems, ideas, teams, and futures. Educated through formal training, professional certifications, and relentless self-learning, he stands where creativity, technology, and entrepreneurship meet to solve real problems and improve real lives.",
+  "Nicholas Kwaku Akakpo is a versatile entrepreneur with expertise spanning graphic design, large-scale printing, domestic and commercial security/surveillance and automation installations, and AI-assisted programming. He has strong expertise in seamlessly integrating creativity with cutting-edge technology.",
   "With nearly a decade of professional experience, he delivers high-quality services in graphic design, large-format printing, security and surveillance, automation, and AI-assisted development — enhancing security, efficiency, and brand visibility for corporate, residential, and commercial clients across Ghana.",
   "A detail-oriented and results-driven professional, Nicholas operates on a contract-based model through The Uvers Prints, PRO-KAN Technologies, and the TradersBook platform — prioritising precision, reliability, and on-time delivery within budget.",
   "His work is anchored in a simple conviction: wealth and success must be pursued with integrity and must lift others. That means creating dignified opportunities, confronting complex problems with practical systems, and staying restless until visions become executed reality.",
