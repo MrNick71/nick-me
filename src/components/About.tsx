@@ -14,6 +14,9 @@ export function About() {
           <h2 className="mt-3 font-serif text-4xl font-bold tracking-tight text-ink md:text-5xl">
             {aboutHeadline}
           </h2>
+          <p className="mt-4 text-lg text-ink-muted">
+            Who I am, what I build, and the standard I hold myself to.
+          </p>
         </div>
 
         <div className="mt-8 grid gap-10 lg:grid-cols-5">

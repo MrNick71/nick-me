@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Mr. Nick",
   title: "Nicholas Kwaku Akakpo — Entrepreneur, Designer & Technology Professional",
   description:
-    "Nicholas Kwaku Akakpo is a versatile entrepreneur offering graphic design, large-format printing, security & surveillance, home automation, and AI-assisted development — serving corporate, residential, and commercial clients across Ghana.",
+    "Nicholas Kwaku Akakpo — intentional entrepreneur and builder at the intersection of creativity, technology, and business. Design, printing, security, automation, and AI-assisted development across Ghana.",
   url: "https://mr-nick.me",
   email: "wisenick71@gmail.com",
   phone: "+233 20 733 0529",
@@ -11,56 +11,89 @@ export const siteConfig = {
   facebook: "https://www.facebook.com/nicholas.wise.kwaku.akakpo",
   location: "Gbetseli, Tema — Greater Accra, Ghana",
   tagline:
-    "Versatile entrepreneur at the intersection of design, security, automation, and AI-assisted technology — delivering scalable solutions with precision and integrity.",
+    "Builder at the intersection of creativity, technology, and entrepreneurship — creating solutions that improve lives and leave a lasting legacy.",
   portrait: "/images/nick-portrait.png",
 };
 
 export const heroQuotes = [
   {
-    text: "Hard work, integrity, and unity can overcome any obstacle — a philosophy I carry into every project and partnership.",
-    attribution: "On values",
+    text: "I value depth over noise, legacy over applause, and service over entitlement — in every venture, partnership, and decision.",
+    attribution: "On purpose",
   },
   {
-    text: "I merge technical expertise with business acumen to deliver solutions that enhance security, efficiency, and brand visibility.",
-    attribution: "On approach",
+    text: "Success is incomplete unless it lifts others — through dignified work, practical systems, and opportunities that restore hope.",
+    attribution: "On mission",
   },
   {
-    text: "Detail-oriented, results-driven, and committed to excellence — consistently delivering on time and within budget.",
-    attribution: "On professional standards",
+    text: "Under pressure or on deadline, I solve problems with resilience, strategic thinking, and a commitment to momentum and becoming.",
+    attribution: "On drive",
   },
 ];
 
 export const principles = [
   {
-    title: "Precision & reliability",
+    title: "Vision & depth",
     description:
-      "Every installation, design, and deliverable is executed with attention to detail — ensuring accuracy, data integrity, and lasting quality for clients.",
+      "Life and work are driven by purpose, not comfort. I pursue meaningful impact — building systems, ventures, and relationships designed to outlast trends and applause.",
   },
   {
-    title: "Integrity & service",
+    title: "Integrity & character",
     description:
-      "Rooted in Christian faith and a strong work ethic, I approach every engagement with honesty, accountability, and a genuine commitment to client success.",
+      "I choose truth over convenience and honour my word. Character must grow faster than success — in thought, speech, habits, and how I treat people regardless of status.",
   },
   {
-    title: "Innovation through learning",
+    title: "Service & empathy",
     description:
-      "From AI-assisted development and AWS cloud architecture to enterprise design thinking — I continuously adopt emerging technologies to stay ahead of industry demands.",
+      "Abilities are entrusted for service, not ego. I lead without abuse of power, treat people with dignity, and measure success by how many lives and livelihoods are improved.",
   },
   {
-    title: "Impact & legacy",
+    title: "Innovation & grit",
     description:
-      "Whether building businesses, mentoring teams, or serving communities — the goal is sustainable value that uplifts clients, families, and future generations.",
+      "Formal training, certifications, and relentless self-learning fuel rapid growth in technology and craft. Small daily wins and steady momentum matter as much as big visions.",
   },
 ];
 
+export const coreValues = [
+  "Vision",
+  "Service",
+  "Integrity",
+  "Humility",
+  "Courage",
+  "Empathy",
+  "Innovation",
+  "Accountability",
+  "Hard Work",
+  "Grit",
+];
+
+export const personalMission = {
+  statement:
+    "To become independent, self-reliant, and financially free — while building a balanced life that creates jobs with dignity, empowers people through systems and knowledge, and raises standards of living for communities I serve.",
+  commitments: [
+    "Build practical solutions to real problems — not noise.",
+    "Create good-paying work with healthy, respectful conditions.",
+    "Empower others through opportunity, systems, and knowledge.",
+  ],
+  pledge:
+    "I will not betray my future for temporary comfort. I commit to learning, building, and applying knowledge so the world I leave is better than the one I found.",
+};
+
+export const strengths = [
+  "High-level problem-solving under pressure",
+  "Rapid learning in technology and practical skills",
+  "Physical and mental resilience for demanding work",
+  "Strong communication and interpersonal skills",
+  "Strategic thinking with open-minded ambition",
+];
+
 export const aboutHeadline =
-  "A versatile entrepreneur delivering design, security, and technology solutions";
+  "An intentional builder of systems, ventures, and lasting impact";
 
 export const aboutParagraphs = [
-  "Nicholas Kwaku Akakpo is a versatile entrepreneur with expertise spanning graphic design, large-scale printing, security and surveillance, home and office automation, and AI-assisted programming. With a strong foundation in digital branding and print production, he has strategically expanded into CCTV systems, electric fencing, smart automation, and software development — seamlessly integrating creativity with cutting-edge technology.",
-  "With nearly a decade of professional experience, Nicholas specializes in high-quality, scalable services that enhance security, operational efficiency, and brand visibility while ensuring data accuracy and integrity. His ability to combine technical expertise with sound business judgment makes him a trusted partner for corporate, residential, and commercial clients across Ghana.",
-  "A detail-oriented and results-driven professional, Nicholas prioritizes precision, reliability, and cost-effective delivery — consistently completing projects on time and within budget. Rather than traditional employment, he operates on a contract-based model through his ventures: The Uvers Prints, PRO-KAN Technologies, and the TradersBook platform.",
-  "Resilient and ambitious, he embraces challenges with creativity and strategic thinking, ensuring every engagement aligns with core values of integrity, service, and excellence. His critical thinking, adaptability, and commitment to continuous improvement have earned him a reputation for efficiency and innovation across multiple industries.",
+  "Shaped by humble beginnings and disciplined growth, Nicholas Kwaku Akakpo is an intentional builder — of systems, ideas, teams, and futures. Educated through formal training, professional certifications, and relentless self-learning, he stands where creativity, technology, and entrepreneurship meet to solve real problems and improve real lives.",
+  "With nearly a decade of professional experience, he delivers high-quality services in graphic design, large-format printing, security and surveillance, automation, and AI-assisted development — enhancing security, efficiency, and brand visibility for corporate, residential, and commercial clients across Ghana.",
+  "A detail-oriented and results-driven professional, Nicholas operates on a contract-based model through The Uvers Prints, PRO-KAN Technologies, and the TradersBook platform — prioritising precision, reliability, and on-time delivery within budget.",
+  "His work is anchored in a simple conviction: wealth and success must be pursued with integrity and must lift others. That means creating dignified opportunities, confronting complex problems with practical systems, and staying restless until visions become executed reality.",
 ];
 
 export const contractServices = [
@@ -158,17 +191,17 @@ export const aspirations = [
   {
     title: "Leadership & mentorship",
     description:
-      "Mentoring and empowering young entrepreneurs and professionals to reach their full potential.",
+      "Sitting with community leaders, innovators, and everyday people to design systems that uplift communities, strengthen local economies, and restore dignity.",
   },
   {
     title: "Balanced living",
     description:
-      "Pursuing a vision that blends sustainable rural living with access to urban resources and high-impact work.",
+      "A life grounded in family, music, and quiet reflection — with a modest home amid nature and water, yet connected to the city when collaboration and service call.",
   },
 ];
 
 export const aspirationsClosing =
-  "Rooted in heritage and guided by principle, these aspirations are driven by a desire to innovate, lead, and leave a meaningful legacy.";
+  "Rooted in heritage and guided by principle, I pledge to grow in wisdom, act consistently toward my mission, and pursue self-actualization with discipline — so character always outpaces success.";
 
 export type VentureMediaItem = {
   type: "image" | "video";
@@ -443,11 +476,12 @@ export const achievements = [
 ];
 
 export const interests = [
-  "Arts — Design & Photography",
-  "Technology & Innovation",
-  "Music — Singing, Trumpet & Drums",
-  "Reading & Continuous Learning",
-  "Cooking",
+  "Photography — human stories, beauty, and fleeting moments",
+  "Music — singing, trumpet, and drums to inspire and uplift",
+  "Family and meaningful time with loved ones",
+  "Technology, systems, and how great ideas are built",
+  "Wealth creation with integrity and philanthropic influence",
+  "Reading, learning, and continuous self-improvement",
 ];
 
 export const navLinks = [

@@ -41,7 +41,7 @@ export function SkillsAndMore() {
           <div>
             <p className="section-label">Interests</p>
             <h2 className="mt-3 font-serif text-3xl font-bold text-ink">
-              Beyond work
+              Passions & curiosities
             </h2>
             <ul className="mt-8 space-y-3">
               {interests.map((interest) => (
