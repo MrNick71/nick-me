@@ -60,6 +60,7 @@ export function Businesses() {
                 ventureName={business.name}
                 slug={business.slug}
                 media={business.media}
+                mediaCategories={business.mediaCategories}
               />
             </article>
           ))}

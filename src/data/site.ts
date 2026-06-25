@@ -177,6 +177,13 @@ export type VentureMediaItem = {
   caption?: string;
 };
 
+export type VentureMediaCategory = {
+  id: string;
+  name: string;
+  /** Add files to public/media/{venture-slug}/{id}/ */
+  media: VentureMediaItem[];
+};
+
 export type Venture = {
   name: string;
   slug: string;
@@ -187,8 +194,10 @@ export type Venture = {
   highlights: string[];
   link: string | null;
   featured: boolean;
-  /** Photos and videos — add files to public/media/{slug}/ then list them here */
+  /** Flat gallery for simple ventures */
   media: VentureMediaItem[];
+  /** Catalog-style groups (e.g. Uvers Prints WhatsApp categories) */
+  mediaCategories?: VentureMediaCategory[];
 };
 
 export const businesses: Venture[] = [
@@ -243,6 +252,15 @@ export const businesses: Venture[] = [
     link: null,
     featured: true,
     media: [],
+    mediaCategories: [
+      { id: "designs", name: "Designs", media: [] },
+      { id: "frames-plaques", name: "Frames & Plaques", media: [] },
+      { id: "shirts-fabric-printing", name: "Shirts / Fabric Printing", media: [] },
+      { id: "signs-billboards", name: "Signs & Bill Boards", media: [] },
+      { id: "souvenirs-packages", name: "Souvenirs & Packages", media: [] },
+      { id: "3d-signs-pylons", name: "3D Signs & Pylons", media: [] },
+      { id: "branding-cars-offices", name: "Branding (Cars & Offices)", media: [] },
+    ],
   },
 ];
 

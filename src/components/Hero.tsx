@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { heroQuotes, siteConfig } from "@/data/site";
 
 export function Hero() {
@@ -7,7 +6,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_srgb,var(--color-accent)_10%,transparent),transparent_55%)]" />
 
       <div className="relative mx-auto max-w-6xl px-6 pt-10 pb-6 md:pt-12 md:pb-8">
-        <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-12">
+        <div className="grid items-center gap-8 md:grid-cols-[1fr_auto] md:gap-10">
           <div>
             <p className="section-label animate-fade-up">Personal site of</p>
 
@@ -37,18 +36,17 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="animate-fade-up animate-delay-2 mx-auto w-full max-w-[280px] shrink-0 lg:mx-0 lg:max-w-[300px]">
-            <div className="relative overflow-hidden rounded-2xl border border-border bg-surface shadow-[0_8px_40px_color-mix(in_srgb,var(--color-accent)_12%,transparent)]">
-              <div className="relative aspect-[3/4] w-full">
-                <Image
-                  src={siteConfig.portrait}
-                  alt={`Portrait of ${siteConfig.name}`}
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 1024px) 280px, 300px"
-                  priority
-                />
-              </div>
+          <div className="mx-auto w-full max-w-[260px] shrink-0 sm:max-w-[280px] md:mx-0 md:max-w-[300px]">
+            <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-[0_8px_40px_color-mix(in_srgb,var(--color-accent)_12%,transparent)]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={siteConfig.portrait}
+                alt={`Portrait of ${siteConfig.name}`}
+                width={300}
+                height={400}
+                className="aspect-[3/4] h-auto w-full object-cover object-top"
+                fetchPriority="high"
+              />
             </div>
           </div>
         </div>
