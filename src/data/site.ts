@@ -11,6 +11,7 @@ export const siteConfig = {
   location: "Gbetseli, Tema — Greater Accra, Ghana",
   tagline:
     "Versatile entrepreneur at the intersection of design, security, automation, and AI-assisted technology — delivering scalable solutions with precision and integrity.",
+  portrait: "/images/nick-portrait.png",
 };
 
 export const heroQuotes = [
