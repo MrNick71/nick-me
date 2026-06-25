@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "mr-nick-me",
-    "My Site": "mr-nick-4ebb3"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "mr-nick-4ebb3"
+  }
 }
