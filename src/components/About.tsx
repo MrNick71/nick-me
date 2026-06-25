@@ -9,12 +9,12 @@ export function About() {
   return (
     <section id="about" className="section-pad border-b border-border">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="max-w-3xl">
+        <div>
           <p className="section-label">Professional biography</p>
-          <h2 className="mt-3 font-serif text-4xl font-bold tracking-tight text-ink md:text-5xl">
+          <h2 className="mt-3 max-w-6xl font-serif text-4xl font-bold tracking-tight text-ink md:text-5xl">
             {aboutHeadline}
           </h2>
-          <p className="mt-4 text-lg text-ink-muted">
+          <p className="mt-4 max-w-2xl text-lg text-ink-muted">
             Who I am, what I build, and the standard I hold myself to.
           </p>
         </div>

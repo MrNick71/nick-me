@@ -242,7 +242,7 @@ export const businesses: Venture[] = [
     period: "June 2025 — Present",
     tag: "SaaS Platform",
     description:
-      "A trading and business management platform built with AI-assisted development workflows. Full UI/UX design, dashboards, profile management, trade tracking, and deployment — initially on Hostinger, migrated to Firebase for scalability.",
+      "A record keeping and business management platform built with AI-assisted development workflows. Full UI/UX design, dashboards, profile management, record tracking, and deployment — initially on Hostinger, migrated to Firebase for scalability.",
     highlights: [
       "AI-assisted coding with Cursor & ChatGPT",
       "End-to-end UI/UX and front-end development",
@@ -484,11 +484,79 @@ export const interests = [
   "Reading, learning, and continuous self-improvement",
 ];
 
+export type LinkedInArticle = {
+  title: string;
+  date: string;
+  dateLabel: string;
+  topic: string;
+  excerpt: string;
+  url: string;
+};
+
+export const linkedinArticles: LinkedInArticle[] = [
+  {
+    title: "Reflections on the International Day of Failure: The Law of Wasted Effort",
+    date: "2025-10-15",
+    dateLabel: "Oct 15, 2025",
+    topic: "Resilience",
+    excerpt:
+      "On the International Day of Failure, I reflect on my father's unbroken spirit through setbacks — and the Law of Wasted Effort: persistence is the bridge between failure and success.",
+    url: "https://www.linkedin.com/pulse/reflections-international-day-failure-law-wasted-effort-akakpo-mqhte",
+  },
+  {
+    title: "Screen Printing in the Modern Era: A Ghanaian Perspective on Enduring Excellence",
+    date: "2025-06-06",
+    dateLabel: "Jun 6, 2025",
+    topic: "Print Industry",
+    excerpt:
+      "After a decade in Ghana's print industry, I've seen DTG, DTF, and sublimation rise — yet screen printing remains a cornerstone of quality, durability, and cost-effectiveness for bulk production.",
+    url: "https://www.linkedin.com/pulse/screen-printing-modern-era-ghanaian-perspective-enduring-akakpo-mdkcf",
+  },
+  {
+    title:
+      "The Diminishing Presence of CorelDRAW in the Graphic Design Industry: A Personal Perspective",
+    date: "2025-02-19",
+    dateLabel: "Feb 19, 2025",
+    topic: "Design",
+    excerpt:
+      "Nearly a decade with CorelDRAW taught me its strengths — but industry demand now favors Adobe Illustrator, Photoshop, and newer tools like Figma. Here's what that shift means for designers.",
+    url: "https://www.linkedin.com/pulse/diminishing-presence-coreldraw-graphic-design-industry-akakpo-5lyje",
+  },
+  {
+    title: "Embracing the Tech Evolution: A Personal Journey from Design to Digital Mastery",
+    date: "2025-02-15",
+    dateLabel: "Feb 15, 2025",
+    topic: "Technology",
+    excerpt:
+      "From graphic design to security installations, then ALX, AWS Cloud Computing, and AI — a personal account of adapting, learning, and encouraging African youth to seize tech opportunities.",
+    url: "https://www.linkedin.com/pulse/embracing-tech-evolution-personal-journey-from-design-nicholas-akakpo-klj0e",
+  },
+  {
+    title: "My Perspectives As A Graphic Designer in the Ghanaian Local Community",
+    date: "2024-11-22",
+    dateLabel: "Nov 22, 2024",
+    topic: "Community",
+    excerpt:
+      "In Ghana's vibrant cultural landscape, the graphic designer wears many hats — bridging tradition and modern branding for churches, schools, startups, and local businesses.",
+    url: "https://www.linkedin.com/pulse/my-perspectives-graphic-designer-ghanaian-local-community-akakpo-9imhe",
+  },
+  {
+    title: "My Graphics Design Career Journey",
+    date: "2024-11-02",
+    dateLabel: "Nov 2, 2024",
+    topic: "Career",
+    excerpt:
+      "From a discouraged art-loving child to CATKOM Prints, freelancing, and founding The Uvers Prints — the full story of mentors, setbacks, promotions, and building a design business from scratch.",
+    url: "https://www.linkedin.com/pulse/my-graphics-design-career-journey-nicholas-akakpo-bhcde",
+  },
+];
+
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Principles", href: "#principles" },
   { label: "Businesses", href: "#businesses" },
+  { label: "Articles", href: "#articles" },
   { label: "Background", href: "#background" },
   { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
