@@ -4,13 +4,20 @@
   --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 
-  --color-cream: #faf8f5;
-  --color-ink: #1a1a1a;
-  --color-ink-muted: #5c5c5c;
-  --color-accent: #c45c26;
-  --color-accent-dark: #9a4520;
-  --color-border: #e8e4df;
+  /* Dusty blue — corporate & calm */
+  --color-cream: #f4f6f9;
   --color-surface: #ffffff;
+  --color-surface-alt: #eef2f7;
+  --color-ink: #1e2d3d;
+  --color-ink-muted: #5c6b7d;
+  --color-deep: #1a2836;
+  --color-deep-light: #243445;
+  --color-accent: #5b7c99;
+  --color-accent-dark: #4a6780;
+  --color-accent-soft: #dde6ef;
+  --color-accent-glow: #8ba4bc;
+  --color-border: #d8e0e9;
+  --color-warm: #9aabb8;
 }
 
 html {
@@ -21,12 +28,17 @@ body {
   font-family: var(--font-sans);
   color: var(--color-ink);
   background-color: var(--color-cream);
+  background-image:
+    radial-gradient(ellipse at 0% 0%, color-mix(in srgb, var(--color-accent) 6%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 20%, color-mix(in srgb, var(--color-warm) 5%, transparent) 0%, transparent 45%);
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
-  background-color: color-mix(in srgb, var(--color-accent) 25%, transparent);
+  background-color: color-mix(in srgb, var(--color-accent) 22%, transparent);
+  color: var(--color-ink);
 }
 
 .section-label {
@@ -41,16 +53,50 @@ body {
   font-family: var(--font-serif);
   font-size: 4rem;
   line-height: 1;
-  color: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  color: color-mix(in srgb, var(--color-accent-glow) 45%, transparent);
 }
 
 .card-hover {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .card-hover:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(26, 26, 26, 0.08);
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--color-accent) 25%, var(--color-border));
+  box-shadow:
+    0 4px 20px color-mix(in srgb, var(--color-accent) 8%, transparent),
+    0 12px 40px color-mix(in srgb, var(--color-ink) 6%, transparent);
+}
+
+.btn-primary {
+  background: linear-gradient(
+    135deg,
+    var(--color-accent) 0%,
+    var(--color-accent-dark) 100%
+  );
+  color: white;
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
+.btn-ghost {
+  border: 1px solid var(--color-border);
+  background: color-mix(in srgb, var(--color-surface) 80%, transparent);
+  backdrop-filter: blur(8px);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.btn-ghost:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 40%, var(--color-border));
+  background: var(--color-surface);
 }
 
 @keyframes fade-up {

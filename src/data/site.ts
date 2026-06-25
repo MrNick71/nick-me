@@ -1,60 +1,172 @@
 export const siteConfig = {
   name: "Nicholas Kwaku Akakpo",
   shortName: "Mr. Nick",
-  title: "Nicholas Kwaku Akakpo — Entrepreneur, Builder & Leader",
+  title: "Nicholas Kwaku Akakpo — Entrepreneur, Designer & Technology Professional",
   description:
-    "Personal site of Nicholas Kwaku Akakpo — founder, technologist, designer, and entrepreneur building TradersBook, PRO-KAN Technologies, and The Uvers Prints from Tema, Ghana.",
+    "Nicholas Kwaku Akakpo is a versatile entrepreneur offering graphic design, large-format printing, security & surveillance, home automation, and AI-assisted development — serving corporate, residential, and commercial clients across Ghana.",
   url: "https://mr-nick.me",
   email: "wisenick71@gmail.com",
   phone: "+233 20 733 0529",
   linkedin: "https://www.linkedin.com/in/nicholas-kwaku-akakpo/",
   location: "Gbetseli, Tema — Greater Accra, Ghana",
-  tagline: "Entrepreneur, builder, and problem solver at the intersection of technology, design, and leadership.",
+  tagline:
+    "Versatile entrepreneur at the intersection of design, security, automation, and AI-assisted technology — delivering scalable solutions with precision and integrity.",
 };
 
 export const heroQuotes = [
   {
-    text: "Strength, grit, sacrifice, and resilience are the wind in my sails toward greatness and impact.",
-    attribution: "On growing up in challenging terrain",
+    text: "Hard work, integrity, and unity can overcome any obstacle — a philosophy I carry into every project and partnership.",
+    attribution: "On values",
   },
   {
-    text: "I thrive on innovation, personal growth, and leadership — always seeking ways to improve lives and create lasting impact.",
-    attribution: "On purpose",
+    text: "I merge technical expertise with business acumen to deliver solutions that enhance security, efficiency, and brand visibility.",
+    attribution: "On approach",
   },
   {
-    text: "A versatile professional with expertise in AI-assisted development, cloud solutions, design, and entrepreneurship.",
-    attribution: "On craft",
+    text: "Detail-oriented, results-driven, and committed to excellence — consistently delivering on time and within budget.",
+    attribution: "On professional standards",
   },
 ];
 
 export const principles = [
   {
-    title: "Build with intention",
+    title: "Precision & reliability",
     description:
-      "Every product, design, and system should solve a real problem — maintainable, modular, and user-first.",
+      "Every installation, design, and deliverable is executed with attention to detail — ensuring accuracy, data integrity, and lasting quality for clients.",
   },
   {
-    title: "Lead by example",
+    title: "Integrity & service",
     description:
-      "From supervising design teams to heading an entire school department, leadership means training others and raising standards.",
+      "Rooted in Christian faith and a strong work ethic, I approach every engagement with honesty, accountability, and a genuine commitment to client success.",
   },
   {
-    title: "Learn relentlessly",
+    title: "Innovation through learning",
     description:
-      "From AWS cloud architecture to AI-assisted development and enterprise design thinking — growth never stops.",
+      "From AI-assisted development and AWS cloud architecture to enterprise design thinking — I continuously adopt emerging technologies to stay ahead of industry demands.",
   },
   {
-    title: "Create lasting impact",
+    title: "Impact & legacy",
     description:
-      "Whether through businesses, community events, or technology platforms — the goal is sustainable value for people.",
+      "Whether building businesses, mentoring teams, or serving communities — the goal is sustainable value that uplifts clients, families, and future generations.",
   },
 ];
 
+export const aboutHeadline =
+  "A versatile entrepreneur delivering design, security, and technology solutions";
+
 export const aboutParagraphs = [
-  "I'm Nicholas Kwaku Akakpo — a visionary entrepreneur, problem solver, and lifelong learner with a deep passion for technology, security systems, automation, and creative design.",
-  "Coming from a background where strength, grit, sacrifice, resilience, and perseverance were essential traits, I've harnessed those qualities to drive innovation and deliver sustainable solutions across every endeavor.",
-  "As Founder & Lead Developer of TradersBook, I combine AI-assisted coding, UI/UX design, and cloud deployment to build platforms that matter. Alongside that, I run PRO-KAN Technologies for security and home automation, and The Uvers Prints for design and print services.",
+  "Nicholas Kwaku Akakpo is a versatile entrepreneur with expertise spanning graphic design, large-scale printing, security and surveillance, home and office automation, and AI-assisted programming. With a strong foundation in digital branding and print production, he has strategically expanded into CCTV systems, electric fencing, smart automation, and software development — seamlessly integrating creativity with cutting-edge technology.",
+  "With nearly a decade of professional experience, Nicholas specializes in high-quality, scalable services that enhance security, operational efficiency, and brand visibility while ensuring data accuracy and integrity. His ability to combine technical expertise with sound business judgment makes him a trusted partner for corporate, residential, and commercial clients across Ghana.",
+  "A detail-oriented and results-driven professional, Nicholas prioritizes precision, reliability, and cost-effective delivery — consistently completing projects on time and within budget. Rather than traditional employment, he operates on a contract-based model through his ventures: The Uvers Prints, PRO-KAN Technologies, and the TradersBook platform.",
+  "Resilient and ambitious, he embraces challenges with creativity and strategic thinking, ensuring every engagement aligns with core values of integrity, service, and excellence. His critical thinking, adaptability, and commitment to continuous improvement have earned him a reputation for efficiency and innovation across multiple industries.",
 ];
+
+export const contractServices = [
+  {
+    title: "Large Format & Digital Printing",
+    description:
+      "Banners, signboards, brochures, business cards, and high-volume print production with consistent quality and fast turnaround.",
+  },
+  {
+    title: "Corporate Branding & Identity",
+    description:
+      "End-to-end brand identity solutions — from logo design and visual systems to marketing collateral and social media assets.",
+  },
+  {
+    title: "Surveillance & Automation",
+    description:
+      "Professional installation of CCTV, electric fencing, access control, biometrics, and smart home/office automation systems.",
+  },
+  {
+    title: "AI-Assisted Development",
+    description:
+      "UI/UX design and front-end development for web platforms, leveraging modern AI-assisted workflows for rapid, maintainable delivery.",
+  },
+];
+
+export const aboutStats = [
+  { label: "Years of design experience", value: "9+" },
+  { label: "Businesses founded", value: "3" },
+  { label: "Team members led", value: "10+" },
+  { label: "Industries served", value: "5+" },
+];
+
+export const heritage = {
+  title: "Heritage & roots",
+  paragraphs: [
+    "Fully Ewe by heritage, Nicholas was raised in a family that values hard work, discipline, and unity. These roots instilled a deep sense of responsibility and resilience that continues to shape his approach to leadership and entrepreneurship.",
+    "Though his family later settled in Tema Community 20 in the Greater Accra Region, Ewe traditions remained central to daily life. Raised on principles of respect, perseverance, and community, these values guide his professional relationships and business decisions to this day.",
+    "A heritage that emphasizes entrepreneurship and resourcefulness fuels his passion for building solutions, growing businesses, and creating positive impact — both for clients and the communities he serves.",
+  ],
+};
+
+export const familyValues = {
+  title: "Family, faith & foundations",
+  paragraphs: [
+    "Nicholas's family journey is one of strength, sacrifice, and perseverance. Through financial hardship and personal challenges — including his father's accident — the family stood together, supporting one another with resilience and unity.",
+    "Family traditions are rooted in Christian faith, communal living, and a strong work ethic. Celebrations became moments of gratitude, storytelling, and bonding — reinforcing the importance of heritage, shared values, and intergenerational support.",
+    "These formative experiences shaped a lasting belief that hard work, integrity, and unity can overcome any obstacle — a philosophy that underpins every business venture, client engagement, and leadership role.",
+  ],
+};
+
+export const milestones = [
+  {
+    title: "Early lessons in resilience",
+    description:
+      "Overcoming financial struggles and personal hardship instilled a relentless drive for self-improvement and long-term success.",
+  },
+  {
+    title: "Entrepreneurial growth",
+    description:
+      "Founded and scaled multiple businesses delivering solutions in security systems, automation, creative design, and print services.",
+  },
+  {
+    title: "Technical mastery",
+    description:
+      "Nearly a decade of expertise in CorelDRAW, with ongoing advancement in Adobe Illustrator, Photoshop, and AI-assisted development tools.",
+  },
+  {
+    title: "Emerging technology",
+    description:
+      "Completed ALX programmes in AI Career Essentials, Founder Academy, and AWS cloud certification — deepening capabilities in next-generation technology.",
+  },
+  {
+    title: "Building a legacy",
+    description:
+      "Developing a family wealth investment plan to secure long-term financial stability and create opportunities for future generations.",
+  },
+];
+
+export const aspirations = [
+  {
+    title: "Scaling businesses",
+    description:
+      "Expanding ventures in security, automation, print services, and AI-driven software solutions across new markets.",
+  },
+  {
+    title: "Generational wealth",
+    description:
+      "Establishing a family trust fund to secure financial freedom and support future entrepreneurial endeavours.",
+  },
+  {
+    title: "Technological innovation",
+    description:
+      "Leveraging AI and automation to develop cutting-edge solutions for businesses and communities.",
+  },
+  {
+    title: "Leadership & mentorship",
+    description:
+      "Mentoring and empowering young entrepreneurs and professionals to reach their full potential.",
+  },
+  {
+    title: "Balanced living",
+    description:
+      "Pursuing a vision that blends sustainable rural living with access to urban resources and high-impact work.",
+  },
+];
+
+export const aspirationsClosing =
+  "Rooted in heritage and guided by principle, these aspirations are driven by a desire to innovate, lead, and leave a meaningful legacy.";
 
 export const businesses = [
   {
@@ -247,15 +359,16 @@ export const education = [
 ];
 
 export const skills = [
-  "AI-Assisted Development & Vibe Coding",
-  "UI/UX Design & Front-End Development",
+  "Graphic Design (CorelDRAW, Adobe Photoshop & Illustrator)",
+  "Large Format & Digital Printing",
+  "Corporate Branding & Identity Design",
+  "CCTV, Electric Fencing & Access Control",
+  "Home & Office Automation Systems",
+  "AI-Assisted Development & UI/UX Design",
   "AWS Cloud Solutions",
-  "Graphic Design (Adobe Photoshop, CorelDraw)",
-  "Security & Home Automation Systems",
   "Leadership & Team Management",
   "Business Strategy & Operations",
   "Social Media Management & Marketing",
-  "Google & Microsoft Office Tools",
 ];
 
 export const achievements = [
@@ -291,10 +404,10 @@ export const interests = [
 
 export const navLinks = [
   { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
   { label: "Principles", href: "#principles" },
   { label: "Businesses", href: "#businesses" },
+  { label: "Background", href: "#background" },
   { label: "Experience", href: "#experience" },
-  { label: "Leadership", href: "#leadership" },
-  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];

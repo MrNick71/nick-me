@@ -22,7 +22,7 @@ export function Education() {
                 <p className="mt-1 text-sm text-ink-muted">{item.institution}</p>
               </div>
               <div className="flex shrink-0 flex-col items-start gap-1 sm:items-end">
-                <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                <span className="rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent-dark">
                   {item.type}
                 </span>
                 <span className="text-sm text-ink-muted">{item.period}</span>

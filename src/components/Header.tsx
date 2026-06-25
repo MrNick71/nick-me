@@ -7,7 +7,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-cream/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border bg-cream/80 backdrop-blur-lg">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
           href="#"
@@ -28,7 +28,7 @@ export function Header() {
           ))}
           <a
             href="#contact"
-            className="rounded-full bg-ink px-5 py-2 text-sm font-medium text-cream transition-colors hover:bg-accent"
+            className="btn-primary rounded-full px-5 py-2 text-sm font-medium"
           >
             Get in touch
           </a>
@@ -67,7 +67,7 @@ export function Header() {
             ))}
             <a
               href="#contact"
-              className="rounded-full bg-ink px-5 py-2 text-center text-sm font-medium text-cream"
+              className="btn-primary rounded-full px-5 py-2 text-center text-sm font-medium"
               onClick={() => setOpen(false)}
             >
               Get in touch

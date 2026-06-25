@@ -23,8 +23,8 @@ export function Businesses() {
               className="card-hover overflow-hidden rounded-2xl border border-border bg-surface"
             >
               <div className="grid lg:grid-cols-3">
-                <div className="border-b border-border bg-ink p-8 text-cream lg:border-b-0 lg:border-r">
-                  <span className="inline-block rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
+                <div className="border-b border-border bg-deep p-8 text-cream lg:border-b-0 lg:border-r">
+                  <span className="inline-block rounded-full bg-accent-soft/20 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent-glow">
                     {business.tag}
                   </span>
                   <h3 className="mt-4 font-serif text-3xl font-bold">

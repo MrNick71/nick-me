@@ -4,7 +4,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-ink text-cream">
+    <footer className="border-t border-border bg-deep text-cream">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-3">
           <div>
@@ -15,7 +15,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="section-label text-accent">Connect</p>
+            <p className="section-label text-accent-glow">Connect</p>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
                 <a
@@ -47,7 +47,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="section-label text-accent">Location</p>
+            <p className="section-label text-accent-glow">Location</p>
             <p className="mt-4 text-sm leading-relaxed text-cream/70">
               {siteConfig.location}
             </p>

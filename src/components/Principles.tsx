@@ -2,7 +2,7 @@ import { principles } from "@/data/site";
 
 export function Principles() {
   return (
-    <section id="principles" className="border-b border-border bg-surface py-24">
+    <section id="principles" className="border-b border-border bg-surface-alt py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Principles & Ideologies</p>

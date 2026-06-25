@@ -3,7 +3,7 @@ import { heroQuotes, siteConfig } from "@/data/site";
 export function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-border">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(196,92,38,0.06),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_srgb,var(--color-accent)_10%,transparent),transparent_55%)]" />
 
       <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
         <p className="section-label animate-fade-up">Personal site of</p>
@@ -18,16 +18,16 @@ export function Hero() {
 
         <div className="animate-fade-up animate-delay-3 mt-10 flex flex-wrap gap-4">
           <a
-            href="#businesses"
-            className="rounded-full bg-accent px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
+            href="#services"
+            className="btn-primary rounded-full px-7 py-3 text-sm font-semibold"
           >
-            Explore my work
+            View services
           </a>
           <a
             href={siteConfig.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-border bg-surface px-7 py-3 text-sm font-semibold text-ink transition-colors hover:border-ink"
+            className="btn-ghost rounded-full px-7 py-3 text-sm font-semibold text-ink"
           >
             LinkedIn
           </a>
