@@ -8,6 +8,7 @@ export const siteConfig = {
   email: "wisenick71@gmail.com",
   phone: "+233 20 733 0529",
   linkedin: "https://www.linkedin.com/in/nicholas-kwaku-akakpo/",
+  facebook: "https://www.facebook.com/nicholas.wise.kwaku.akakpo",
   location: "Gbetseli, Tema — Greater Accra, Ghana",
   tagline:
     "Versatile entrepreneur at the intersection of design, security, automation, and AI-assisted technology — delivering scalable solutions with precision and integrity.",

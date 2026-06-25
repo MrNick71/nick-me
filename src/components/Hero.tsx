@@ -2,26 +2,35 @@ import { heroQuotes, siteConfig } from "@/data/site";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden border-b border-border">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_srgb,var(--color-accent)_10%,transparent),transparent_55%)]" />
+    <section className="hero-banner relative overflow-hidden">
+      <div className="hero-banner__base" aria-hidden="true" />
+      <div className="hero-banner__mesh" aria-hidden="true" />
+      <div className="hero-banner__grid" aria-hidden="true" />
+      <div className="hero-banner__shine" aria-hidden="true" />
 
-      <div className="relative mx-auto max-w-6xl px-6 pt-10 pb-6 md:pt-12 md:pb-8">
+      <div className="relative z-10 mx-auto max-w-6xl px-6 pt-10 pb-6 md:pt-14 md:pb-10">
         <div className="grid items-center gap-8 md:grid-cols-[1fr_auto] md:gap-10">
           <div>
-            <p className="section-label animate-fade-up">Personal site of</p>
+            <p className="section-label-light animate-fade-up">
+              Personal site of
+            </p>
 
-            <h1 className="animate-fade-up animate-delay-1 mt-4 font-serif text-5xl font-bold leading-[1.1] tracking-tight text-ink md:text-6xl lg:text-7xl">
+            <h1 className="animate-fade-up animate-delay-1 mt-4 font-serif text-5xl font-bold leading-[1.1] tracking-tight text-white md:text-6xl lg:text-7xl">
               {siteConfig.name}
             </h1>
 
-            <p className="animate-fade-up animate-delay-2 mt-6 max-w-xl text-lg leading-relaxed text-ink-muted md:text-xl">
+            <p className="animate-fade-up animate-delay-2 mt-4 text-sm font-medium uppercase tracking-[0.2em] text-accent-glow md:text-base">
+              Visionary entrepreneur &amp; problem solver
+            </p>
+
+            <p className="animate-fade-up animate-delay-2 mt-5 max-w-xl text-base leading-relaxed text-cream/75 md:text-lg">
               {siteConfig.tagline}
             </p>
 
             <div className="animate-fade-up animate-delay-3 mt-8 flex flex-wrap gap-4">
               <a
                 href="#services"
-                className="btn-primary rounded-full px-7 py-3 text-sm font-semibold"
+                className="btn-primary rounded-full px-7 py-3 text-sm font-semibold shadow-lg shadow-black/20"
               >
                 View services
               </a>
@@ -29,7 +38,7 @@ export function Hero() {
                 href={siteConfig.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-ghost rounded-full px-7 py-3 text-sm font-semibold text-ink"
+                className="btn-ghost-light rounded-full px-7 py-3 text-sm font-semibold"
               >
                 LinkedIn
               </a>
@@ -37,7 +46,7 @@ export function Hero() {
           </div>
 
           <div className="mx-auto w-full max-w-[260px] shrink-0 sm:max-w-[280px] md:mx-0 md:max-w-[300px]">
-            <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-[0_8px_40px_color-mix(in_srgb,var(--color-accent)_12%,transparent)]">
+            <div className="hero-portrait-ring overflow-hidden rounded-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={siteConfig.portrait}
@@ -55,9 +64,12 @@ export function Hero() {
           {heroQuotes.map((quote, i) => (
             <blockquote
               key={i}
-              className="card-hover rounded-2xl border border-border bg-surface p-8"
+              className="hero-quote-card card-hover rounded-2xl border p-8"
             >
-              <span className="quote-mark block" aria-hidden="true">
+              <span
+                className="quote-mark block text-accent"
+                aria-hidden="true"
+              >
                 &ldquo;
               </span>
               <p className="mt-2 font-serif text-lg leading-relaxed text-ink">

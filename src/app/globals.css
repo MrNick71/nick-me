@@ -99,6 +99,92 @@ body {
   background: var(--color-surface);
 }
 
+.btn-ghost-light {
+  border: 1px solid color-mix(in srgb, white 35%, transparent);
+  background: color-mix(in srgb, white 8%, transparent);
+  color: white;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.btn-ghost-light:hover {
+  border-color: color-mix(in srgb, white 60%, transparent);
+  background: color-mix(in srgb, white 15%, transparent);
+}
+
+/* Hero — rich professional gradient banner */
+.hero-banner {
+  position: relative;
+  isolation: isolate;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-deep) 80%, black);
+}
+
+.hero-banner__base {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    145deg,
+    #0f1c28 0%,
+    #1a2836 28%,
+    #243b52 52%,
+    #2f4f66 72%,
+    #1e3344 100%
+  );
+}
+
+.hero-banner__mesh {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 90% 70% at 15% 15%, rgba(91, 124, 153, 0.55), transparent 55%),
+    radial-gradient(ellipse 70% 55% at 85% 20%, rgba(139, 164, 188, 0.4), transparent 50%),
+    radial-gradient(ellipse 55% 45% at 70% 85%, rgba(74, 103, 128, 0.45), transparent 50%),
+    radial-gradient(ellipse 45% 40% at 5% 75%, rgba(180, 150, 110, 0.18), transparent 45%),
+    radial-gradient(ellipse 35% 30% at 50% 45%, rgba(100, 160, 180, 0.12), transparent 40%);
+}
+
+.hero-banner__grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.07;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.9) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.9) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+}
+
+.hero-banner__shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, white 6%, transparent) 0%,
+    transparent 35%,
+    color-mix(in srgb, black 15%, transparent) 100%
+  );
+}
+
+.section-label-light {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent-glow);
+}
+
+.hero-portrait-ring {
+  box-shadow:
+    0 0 0 4px white,
+    0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.hero-quote-card {
+  background: color-mix(in srgb, var(--color-surface) 94%, transparent);
+  backdrop-filter: blur(12px);
+  border-color: color-mix(in srgb, white 50%, var(--color-border));
+}
+
 .section-pad {
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
