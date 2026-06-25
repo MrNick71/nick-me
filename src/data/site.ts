@@ -4,7 +4,7 @@ export const siteConfig = {
   title: "Nicholas Kwaku Akakpo — Entrepreneur, Builder & Leader",
   description:
     "Personal site of Nicholas Kwaku Akakpo — founder, technologist, designer, and entrepreneur building TradersBook, PRO-KAN Technologies, and The Uvers Prints from Tema, Ghana.",
-  url: "https://nick.me",
+  url: "https://mr-nick.me",
   email: "wisenick71@gmail.com",
   phone: "+233 20 733 0529",
   linkedin: "https://www.linkedin.com/in/nicholas-kwaku-akakpo/",
