@@ -168,9 +168,32 @@ export const aspirations = [
 export const aspirationsClosing =
   "Rooted in heritage and guided by principle, these aspirations are driven by a desire to innovate, lead, and leave a meaningful legacy.";
 
-export const businesses = [
+export type VentureMediaItem = {
+  type: "image" | "video";
+  /** Image path (e.g. /media/pro-kan/photo.jpg) or video embed URL */
+  src: string;
+  alt?: string;
+  caption?: string;
+};
+
+export type Venture = {
+  name: string;
+  slug: string;
+  role: string;
+  period: string;
+  tag: string;
+  description: string;
+  highlights: string[];
+  link: string | null;
+  featured: boolean;
+  /** Photos and videos — add files to public/media/{slug}/ then list them here */
+  media: VentureMediaItem[];
+};
+
+export const businesses: Venture[] = [
   {
     name: "TradersBook",
+    slug: "tradersbook",
     role: "Founder & Lead Developer / Designer",
     period: "June 2025 — Present",
     tag: "SaaS Platform",
@@ -184,9 +207,11 @@ export const businesses = [
     ],
     link: null,
     featured: true,
+    media: [],
   },
   {
     name: "PRO-KAN Technologies",
+    slug: "pro-kan",
     role: "Founder & Technician",
     period: "October 2023 — Present",
     tag: "Security & Automation",
@@ -199,9 +224,11 @@ export const businesses = [
     ],
     link: null,
     featured: true,
+    media: [],
   },
   {
     name: "The Uvers Prints",
+    slug: "uvers-prints",
     role: "Founder & Managing Director",
     period: "May 2020 — Present",
     tag: "Design & Print",
@@ -214,6 +241,7 @@ export const businesses = [
     ],
     link: null,
     featured: true,
+    media: [],
   },
 ];
 

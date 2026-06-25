@@ -1,4 +1,5 @@
 import { businesses } from "@/data/site";
+import { VenturePortfolio } from "@/components/VenturePortfolio";
 
 export function Businesses() {
   return (
@@ -11,7 +12,8 @@ export function Businesses() {
               Ventures I&apos;ve built
             </h2>
             <p className="mt-4 text-lg text-ink-muted">
-              From SaaS platforms to security systems and print services — each venture reflects a different facet of my expertise.
+              From SaaS platforms to security systems and print services — each
+              venture reflects a different facet of my expertise.
             </p>
           </div>
         </div>
@@ -31,7 +33,9 @@ export function Businesses() {
                     {business.name}
                   </h3>
                   <p className="mt-2 text-sm text-cream/70">{business.role}</p>
-                  <p className="mt-1 text-sm text-cream/50">{business.period}</p>
+                  <p className="mt-1 text-sm text-cream/50">
+                    {business.period}
+                  </p>
                 </div>
 
                 <div className="p-8 lg:col-span-2">
@@ -51,6 +55,12 @@ export function Businesses() {
                   </ul>
                 </div>
               </div>
+
+              <VenturePortfolio
+                ventureName={business.name}
+                slug={business.slug}
+                media={business.media}
+              />
             </article>
           ))}
         </div>
