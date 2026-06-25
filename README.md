@@ -45,11 +45,27 @@ Static files are output to the `out/` directory.
    ```
    Select your Firebase project. Update `.firebaserc` if you used a different project ID.
 
-4. **Deploy**
-   ```bash
-   npm run deploy
-   ```
-   Your site will be live at `https://<project-id>.web.app`.
+### Automatic deploy on push (GitHub Actions)
+
+Every push to `master` builds and deploys to Firebase Hosting automatically.
+
+**One-time setup** — add a GitHub secret:
+
+1. Open [Firebase Console → Project settings → Service accounts](https://console.firebase.google.com/project/mr-nick-4ebb3/settings/serviceaccounts/adminsdk)
+2. Click **Generate new private key** and download the JSON file
+3. In GitHub, go to **nick-me → Settings → Secrets and variables → Actions**
+4. Click **New repository secret**
+   - Name: `FIREBASE_SERVICE_ACCOUNT`
+   - Value: paste the **entire contents** of the JSON file
+5. Push to `master` — the [Deploy workflow](.github/workflows/deploy.yml) runs automatically
+
+Check progress under the **Actions** tab on GitHub. Live site: [mr-nick.me](https://mr-nick.me)
+
+### Manual deploy
+
+```bash
+npm run deploy
+```
 
 ### Connect mr-nick.me (domain at Hostinger)
 
@@ -60,12 +76,6 @@ Static files are output to the `out/` directory.
 3. In **Hostinger → Manage domain → DNS / Nameservers**, add those records for `mr-nick.me`. Keep any existing records Hostinger warns you about unless Firebase replaces them.
 
 4. Wait for DNS propagation (often 15 minutes–48 hours). Firebase will provision SSL automatically.
-
-### Subsequent deploys
-
-```bash
-npm run deploy
-```
 
 ## Project structure
 
