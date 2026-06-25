@@ -2,7 +2,7 @@ import { leadership } from "@/data/site";
 
 export function Leadership() {
   return (
-    <section id="leadership" className="border-b border-border py-24">
+    <section id="leadership" className="section-pad border-b border-border">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Leadership Impact</p>
@@ -14,7 +14,7 @@ export function Leadership() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {leadership.map((item) => (
             <article
               key={`${item.title}-${item.organization}`}

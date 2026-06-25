@@ -2,7 +2,7 @@ import { siteConfig } from "@/data/site";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="section-pad">
       <div className="mx-auto max-w-6xl px-6">
         <div className="overflow-hidden rounded-3xl bg-deep text-cream">
           <div className="grid lg:grid-cols-2">

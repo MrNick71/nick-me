@@ -2,7 +2,7 @@ import { education } from "@/data/site";
 
 export function Education() {
   return (
-    <section id="education" className="border-b border-border bg-surface py-24">
+    <section id="education" className="section-pad border-b border-border bg-surface">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Education & Certifications</p>
@@ -11,7 +11,7 @@ export function Education() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-4">
+        <div className="mt-10 grid gap-4">
           {education.map((item) => (
             <article
               key={`${item.title}-${item.institution}`}

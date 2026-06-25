@@ -5,7 +5,7 @@ export function Hero() {
     <section className="relative overflow-hidden border-b border-border">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_srgb,var(--color-accent)_10%,transparent),transparent_55%)]" />
 
-      <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
+      <div className="relative mx-auto max-w-6xl px-6 pt-10 pb-6 md:pt-12 md:pb-8">
         <p className="section-label animate-fade-up">Personal site of</p>
 
         <h1 className="animate-fade-up animate-delay-1 mt-4 max-w-4xl font-serif text-5xl font-bold leading-[1.1] tracking-tight text-ink md:text-7xl">
@@ -33,7 +33,7 @@ export function Hero() {
           </a>
         </div>
 
-        <div className="mt-20 grid gap-6 md:grid-cols-3">
+        <div className="mt-12 grid gap-5 md:grid-cols-3">
           {heroQuotes.map((quote, i) => (
             <blockquote
               key={i}

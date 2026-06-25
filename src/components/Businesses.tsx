@@ -2,7 +2,7 @@ import { businesses } from "@/data/site";
 
 export function Businesses() {
   return (
-    <section id="businesses" className="border-b border-border py-24">
+    <section id="businesses" className="section-pad border-b border-border">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-2xl">
@@ -16,7 +16,7 @@ export function Businesses() {
           </div>
         </div>
 
-        <div className="mt-16 space-y-8">
+        <div className="mt-10 space-y-6">
           {businesses.map((business) => (
             <article
               key={business.name}

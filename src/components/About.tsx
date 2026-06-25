@@ -7,7 +7,7 @@ import {
 
 export function About() {
   return (
-    <section id="about" className="border-b border-border py-24">
+    <section id="about" className="section-pad border-b border-border">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-3xl">
           <p className="section-label">Professional biography</p>
@@ -16,7 +16,7 @@ export function About() {
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-16 lg:grid-cols-5">
+        <div className="mt-8 grid gap-10 lg:grid-cols-5">
           <div className="space-y-6 text-base leading-relaxed text-ink-muted lg:col-span-3 md:text-lg">
             {aboutParagraphs.map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
@@ -45,7 +45,7 @@ export function About() {
           </aside>
         </div>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {aboutStats.map((stat) => (
             <div
               key={stat.label}
@@ -65,7 +65,7 @@ export function About() {
 
 export function Services() {
   return (
-    <section id="services" className="border-b border-border bg-surface-alt py-24">
+    <section id="services" className="section-pad border-b border-border bg-surface-alt">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Contract services</p>
@@ -78,7 +78,7 @@ export function Services() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2">
+        <div className="mt-10 grid gap-5 md:grid-cols-2">
           {contractServices.map((service) => (
             <article
               key={service.title}

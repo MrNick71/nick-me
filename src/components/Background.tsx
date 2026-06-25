@@ -8,7 +8,7 @@ import {
 
 export function Background() {
   return (
-    <section id="background" className="border-b border-border bg-surface py-24">
+    <section id="background" className="section-pad border-b border-border bg-surface">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Background & vision</p>
@@ -21,7 +21,7 @@ export function Background() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-12 lg:grid-cols-2">
+        <div className="mt-10 grid gap-8 lg:grid-cols-2">
           <article className="rounded-2xl border border-border p-8 md:p-10">
             <h3 className="font-serif text-2xl font-semibold text-ink">
               {heritage.title}
@@ -45,7 +45,7 @@ export function Background() {
           </article>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-10">
           <h3 className="font-serif text-2xl font-semibold text-ink md:text-3xl">
             Personal journey & milestones
           </h3>
@@ -73,7 +73,7 @@ export function Background() {
           </ol>
         </div>
 
-        <div className="mt-20 rounded-2xl bg-deep p-8 text-cream md:p-12">
+        <div className="mt-12 rounded-2xl bg-deep p-8 text-cream md:p-10">
           <h3 className="font-serif text-2xl font-semibold md:text-3xl">
             Looking forward
           </h3>

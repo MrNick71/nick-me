@@ -2,7 +2,7 @@ import { experience } from "@/data/site";
 
 export function Experience() {
   return (
-    <section id="experience" className="border-b border-border bg-surface py-24">
+    <section id="experience" className="section-pad border-b border-border bg-surface">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Work Experience</p>
@@ -11,7 +11,7 @@ export function Experience() {
           </h2>
         </div>
 
-        <div className="mt-16 space-y-0">
+        <div className="mt-10 space-y-0">
           {experience.map((item, i) => (
             <article
               key={`${item.company}-${item.period}`}

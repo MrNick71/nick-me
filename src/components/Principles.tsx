@@ -2,7 +2,7 @@ import { principles } from "@/data/site";
 
 export function Principles() {
   return (
-    <section id="principles" className="border-b border-border bg-surface-alt py-24">
+    <section id="principles" className="section-pad border-b border-border bg-surface-alt">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="section-label">Principles & Ideologies</p>
@@ -14,7 +14,7 @@ export function Principles() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
           {principles.map((principle, i) => (
             <article
               key={principle.title}

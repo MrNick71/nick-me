@@ -2,9 +2,9 @@ import { achievements, interests, skills } from "@/data/site";
 
 export function SkillsAndMore() {
   return (
-    <section className="border-b border-border py-24">
+    <section className="section-pad border-b border-border">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="grid gap-16 lg:grid-cols-3">
+        <div className="grid gap-10 lg:grid-cols-3">
           <div>
             <p className="section-label">Skills & Talents</p>
             <h2 className="mt-3 font-serif text-3xl font-bold text-ink">

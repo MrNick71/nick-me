@@ -99,6 +99,17 @@ body {
   background: var(--color-surface);
 }
 
+.section-pad {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+@media (min-width: 768px) {
+  .section-pad {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+}
 @keyframes fade-up {
   from {
     opacity: 0;
